@@ -159,8 +159,6 @@ const renderLoop = () => {
     fakeControls.update();
     
 
-    stats.update();
-
     // Обновление состояния объектов в модели
     for(let object of celestialBodiesMeshesList) {
         object.Update(delta, currentTime);
